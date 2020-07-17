@@ -13,6 +13,8 @@ function setup() {
   'Hot air balloon'
     
   )
+  
+  console.log(window.innerHeight, window.innerHeight)
   img.size(playerWidth, playerHeight)
 }
 
