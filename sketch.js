@@ -6,7 +6,7 @@ let playerYChange = 0
 
 
 function setup() {
-  createCanvas(680, 680);
+  createCanvas(window.innerHeight, window.innerWidth);
   frameRate(10)
   img = createImg(
   'https://i.pinimg.com/originals/a8/36/c1/a836c1c871b0c94038fc3bc510f85172.png',
