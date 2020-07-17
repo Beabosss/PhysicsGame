@@ -18,6 +18,8 @@ function setup() {
   img.size(playerWidth, playerHeight)
 }
 
+window.addEventListener("resize", setup);
+
 
 
 
