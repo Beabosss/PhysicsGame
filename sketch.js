@@ -14,7 +14,7 @@ function setup() {
     
   )
   
-  console.log("Hello")
+  console.log(window.innerHeight, window.innerHeight)
   img.size(playerWidth, playerHeight)
 }
 
